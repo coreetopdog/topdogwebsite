@@ -60,6 +60,56 @@ h6 {
 	font-weight: bolder;
 }
 @media screen and (max-width:767px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		margin: unset !important;
+	}
+	
+	.nav li{
+		border-radius: 25px;
+		align-self: center;
+		background-color: #2e0036;
+		margin: 10px;
+		padding: 15px;
+	}
+	.dropdown.open{
+		padding: 10px !important;
+		margin: 10px !important;
+	}
+	.dropdown-menu{
+		background-color: #7C02B5 !important;
+		border-radius: 10px !important;
+	}
+	.sublist{
+		background-color:inherit !important;
+		
+		padding: unset !important;
+		margin: 10px !important;
+		font-size: .7em;
+	}
+	.navbar-nav .open .dropdown-menu .nav li{
+		padding: unset !important;
+		margin: unset !important;
+		font-size: .7em;
+	}
+	
+	.dropdown-menu .nav li{
+		padding: unset !important;
+		margin: unset !important;
+		font-size: .7em;
+	}
+	.navbar-collapse{
+		max-height: fit-content !important;
+		padding: 0 !important;
+		margin: 0 !important;
+		justify-content: center;
+	}
+
+	.navbar-right{
+		border-radius: 25px;
+		background-color: #30014A !important;
+		margin: 25px !important;
+		font-size: .6em !important;
+	}
 	.navbar-default{
 		height: 115px !important;
 	}
@@ -245,22 +295,27 @@ a:focus {
 }
 
 /* Navbar */
+.dropdown.open{
+	padding-bottom: unset !important;
 
+}
 .navbar-default .navbar-nav>.open>a{
 	border-radius: 10px;
-	background-color: #9E06E5!important;
+	padding-bottom: 15px !important;
+	padding-top: 5px !important;
+	background-color: #7C02B5!important;
 }
 .navbar-default .navbar-nav>.open>a:hover{
 	border-radius: 10px;
-	background-color: #9E06E5!important;
+	background-color: #7C02B5!important;
 }.navbar-default .navbar-nav>.open>a:focus{
 	border-radius: 10px;
-	background-color: #9E06E5!important;
+	background-color: #7C02B5!important;
 }
 .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
 	border-radius: 10px;
 	color: #e5ff00;
-	background-color: #9E06E5 !important;
+	background-color: #7C02B5 ;
 }
 .navbar-default .navbar-nav .active a{
 	all: unset;
@@ -275,8 +330,7 @@ a:focus {
 	background-color: #e6e606 !important;
 }
 .navbar-default .navbar-nav .active a:hover{
-	all: unset;
-	padding: 15px;
+	
 	font-size: 1.4em;
 	font-weight: normal;
 	-webkit-text-stroke: 1px #e6e606;
@@ -293,8 +347,8 @@ a:focus {
 	color: #e5ff00 !important;
 }
 .navbar-default .navbar-nav li a:hover{
-	all: unset;
-	padding: 15px;
+	
+	
 	font-size: 1.4em;
 	font-weight: 150;
 	-webkit-text-stroke: 1px #e6e606;
