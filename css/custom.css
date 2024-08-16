@@ -59,14 +59,41 @@ h6 {
 	font-size: 8.5vw;
 	font-weight: bolder;
 }
+@media screen and (max-width:400px) {
+	.navbar-default .navbar-brand {
+		width: 10px;
+	  }
+	
+}
 @media screen and (max-width:767px) {
+	.navbar-default .navbar-nav>.open>a{
+		border-radius: 10px;
+		padding-bottom: 15px !important;
+		padding-top: 5px !important;
+		background-color: #7C02B5!important;
+	}
+	.navbar-default .navbar-nav>.open>a:hover{
+		border-radius: 10px;
+		background-color: #7C02B5!important;
+	}.navbar-default .navbar-nav>.open>a:focus{
+		border-radius: 10px;
+		background-color: #7C02B5!important;
+	}
+	.navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+		border-radius: 10px;
+		color: #e5ff00;
+		background-color: #7C02B5 ;
+	}
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
 		margin: unset !important;
 	}
 	
 	.nav li{
+		text-align: center;
+		width: auto;
 		border-radius: 25px;
-		align-self: center;
+		align-self: center !important; 
+		align-content: center !important;
 		background-color: #2e0036;
 		margin: 10px;
 		padding: 15px;
@@ -91,6 +118,11 @@ h6 {
 		margin: unset !important;
 		font-size: .7em;
 	}
+	.navbar-nav{
+		width: auto !important;
+		padding: unset !important;
+		margin: unset !important;
+	}
 	
 	.dropdown-menu .nav li{
 		padding: unset !important;
@@ -105,9 +137,12 @@ h6 {
 	}
 
 	.navbar-right{
+		
+		text-wrap: nowrap;
+		width: fit-content;
 		border-radius: 25px;
 		background-color: #30014A !important;
-		margin: 25px !important;
+
 		font-size: .6em !important;
 	}
 	.navbar-default{
@@ -301,33 +336,34 @@ a:focus {
 }
 .navbar-default .navbar-nav>.open>a{
 	border-radius: 10px;
-	padding-bottom: 15px !important;
-	padding-top: 5px !important;
-	background-color: #7C02B5!important;
+	padding-top: 10px !important;
+	background-color: #30014A!important;
 }
 .navbar-default .navbar-nav>.open>a:hover{
 	border-radius: 10px;
-	background-color: #7C02B5!important;
+	background-color: #30014A!important;
 }.navbar-default .navbar-nav>.open>a:focus{
 	border-radius: 10px;
-	background-color: #7C02B5!important;
+	background-color: #30014A!important;
 }
 .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
 	border-radius: 10px;
 	color: #e5ff00;
-	background-color: #7C02B5 ;
+	background-color: #30014A ;
 }
 .navbar-default .navbar-nav .active a{
 	all: unset;
+	height: inherit !important;
+	width: inherit !important;
 	border-radius: 10px !important;
 	padding: 15px;
 	font-size: 1.4em;
 	font-weight: normal;
 	transform: translateY(-10px) !important;
-	-webkit-text-stroke: 1px #ffffff!important;
+	-webkit-text-stroke: 1px #e5ff00!important;
 	text-shadow: 1px 1px 5px #30014A ;
-	color: #e5ff00 !important;
-	background-color: #e6e606 !important;
+	color: #f7f7f7 !important;
+	background-color: unset !important;
 }
 .navbar-default .navbar-nav .active a:hover{
 	
