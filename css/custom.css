@@ -1,9 +1,10 @@
 body {
-	padding-top: 100px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+	padding-top: 150px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
 	color: #e5ff00;
 	background-color: #FFFF00;
 	font-family: CormorantGaramond-bold;
 	}
+	
 	
 .navbar-default{
 	font-size: 1.5em;
@@ -16,7 +17,14 @@ h1{
 	vertical-align: middle;
 }
 .text-center{
-	font-size: 5em;
+	font-size: 5vw;
+	color: #30014A;
+	font-weight: bolder;
+	-webkit-text-stroke:2px #7C02B5;
+}
+.menu{
+	text-align: center !important;
+	font-size: 8em;
 	color: #30014A;
 	font-weight: bolder;
 	-webkit-text-stroke:2px #7C02B5;
@@ -24,6 +32,24 @@ h1{
 .text-center:hover{
 	transform: scale(105%);
 }	
+.desc{
+	padding-left: 15px;
+	text-align: left !important;
+	-webkit-text-stroke:.5px #30014A !important;
+	font-size: larger !important;
+}
+.border{
+	
+	margin-top: 25px !important;
+}
+.item{
+	-webkit-text-stroke:1px #30014A !important;
+	margin: 0 !important;
+	padding: 5px !important;
+	font-size: x-large !important;
+	text-align: left !important;
+	-webkit-text-stroke:1px #30014A !important;
+}
 .lead {
 	font-size: 3em  ;
 	color: #7C02B5;
@@ -55,6 +81,7 @@ h6 {
 	}
 
 .jumbotron h1{
+	
 	margin-top: 50px;
 	font-size: 8.5vw;
 	font-weight: bolder;
@@ -65,7 +92,24 @@ h6 {
 	  }
 	
 }
+.sublist .active{
+	margin: 50px !important;
+}
 @media screen and (max-width:767px) {
+	.menu{
+		text-align: center !important;
+		font-size:  11vw;
+		color: #30014A;
+		font-weight: bolder;
+		-webkit-text-stroke:2px #7C02B5;
+	}
+	.text-center{
+		font-size: 4vw;
+		
+		font-weight: bolder;
+		
+	}
+	
 	.navbar-default .navbar-nav>.open>a{
 		border-radius: 10px;
 		padding-bottom: 15px !important;
@@ -103,7 +147,7 @@ h6 {
 		margin: 10px !important;
 	}
 	.dropdown-menu{
-		background-color: #7C02B5 !important;
+		background-color: #30014A !important;
 		border-radius: 10px !important;
 	}
 	.sublist{
@@ -123,6 +167,9 @@ h6 {
 		padding: unset !important;
 		margin: unset !important;
 	}
+	.navbar-collapse.in{
+		overflow: -moz-hidden-unscrollable !important;
+	}
 	
 	.dropdown-menu .nav li{
 		padding: unset !important;
@@ -137,7 +184,7 @@ h6 {
 	}
 
 	.navbar-right{
-		
+	
 		text-wrap: nowrap;
 		width: fit-content;
 		border-radius: 25px;
@@ -331,7 +378,7 @@ a:focus {
 
 /* Navbar */
 .dropdown.open{
-	padding-bottom: unset !important;
+	
 
 }
 .navbar-default .navbar-nav>.open>a{
@@ -391,9 +438,16 @@ a:focus {
 	text-shadow: 1px 1px 5px #e6e606;
 	color: #e5ff00;
 }
+.border{
+	padding: 10px !important;
+	border: #7C02B5 !important;
+	border-style: groove !important;
+	border-width: 5px !important;
+	
+}
 
 .navbar-nav li .dropdown-menu{
-	border-radius: 25px;
+	border-radius: 25px !important;
 	width: 200px;
 	background-color: #30014A;
 }
@@ -408,7 +462,7 @@ a:focus {
 	padding: 15px;
 }
 .container{
-	box-shadow: 0 2px 2px -2px rgba(0,0,0,.2) !important;
+	
 }
 .navbar-right{
 	background-color: #560384;
