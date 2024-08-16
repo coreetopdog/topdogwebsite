@@ -56,9 +56,24 @@ h6 {
 
 .jumbotron h1{
 	margin-top: 50px;
-	font-size: 6vw;
+	font-size: 8.5vw;
 	font-weight: bolder;
 }
+@media screen and (max-width:767px) {
+	.navbar-default{
+		height: 115px !important;
+	}
+	.jumbotron h1   { font-size: 11vw !important;
+		-webkit-text-stroke-width: 1.25px !important; }
+	
+	.navbar-default .navbar-brand{
+		scale: 60%;
+	}}
+@media screen and (max-width:900px) {
+
+	.jumbotron h1   { 
+	-webkit-text-stroke-width: 2px; }
+  }
 .jumbotron{
 	position: relative;
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
@@ -288,7 +303,7 @@ a:focus {
 }
 
 .navbar-nav li .dropdown-menu{
-	border-radius: 10px;
+	border-radius: 25px;
 	width: 200px;
 	background-color: #30014A;
 }
@@ -314,7 +329,7 @@ a:focus {
 .navbar-default {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
 	
-	padding-bottom: 50px;
+	padding-bottom: 0;
 	height: 150px;
   background-color: #560384;
 }
