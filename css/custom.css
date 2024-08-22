@@ -1,9 +1,10 @@
 body {
-	padding-top: 150px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+	padding-top: 115px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
 	color: #e5ff00;
-	background-color: #FFFF00;
+	background-color: #a5a501;
 	font-family: CormorantGaramond-bold;
 	}
+
 	
 	
 .navbar-default{
@@ -17,10 +18,22 @@ h1{
 	vertical-align: middle;
 }
 .text-center{
+	text-shadow: 2px 2px 6px #30014A !important;
 	font-size: 5vw;
-	color: #30014A;
+	color: #560384;
 	font-weight: bolder;
-	-webkit-text-stroke:2px #7C02B5;
+	-webkit-text-stroke:2px #30014A;
+}
+.text-center li{
+	text-align: center;
+    list-style-position: inside;
+	text-justify: auto;
+	
+}
+ h2{
+	font-size: 5vw !important ;
+	-webkit-text-stroke:2px #4f0279;
+	
 }
 .menu{
 	text-align: center !important;
@@ -103,12 +116,16 @@ h6 {
 		font-weight: bolder;
 		-webkit-text-stroke:2px #7C02B5;
 	}
-	.text-center{
-		font-size: 4vw;
-		
+	.col-xs-6 h1{
+		font-size: 7vw !important;
 		font-weight: bolder;
-		
 	}
+	
+	.text-center{
+		font-size: 11vw;
+		font-weight: bolder;
+	}
+	
 	
 	.navbar-default .navbar-nav>.open>a{
 		border-radius: 10px;
@@ -439,6 +456,8 @@ a:focus {
 	color: #e5ff00;
 }
 .border{
+	border-radius: 10px;
+	background-color: #e5ff00;
 	padding: 10px !important;
 	border: #7C02B5 !important;
 	border-style: groove !important;
@@ -474,7 +493,7 @@ a:focus {
 	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 1);
 	
 	padding-bottom: 0;
-	height: 150px;
+	height: 110px;
   background-color: #560384;
 }
 .navbar-default .navbar-brand {
