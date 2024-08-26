@@ -2,7 +2,7 @@ body {
 	box-shadow: inset 0 0 25px #2e0036;
 	padding-top: 100px;    /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
 	color: #e5ff00;
-	background-color: #FFC61A;
+	background-color: #2e0036;
 	font-family: CormorantGaramond-bold;
 	}
 
@@ -23,9 +23,9 @@ h1{
 .text-center{
 	text-shadow: 2px 2px 6px #331031 !important;
 	font-size: 7vw;
-	color: #561A52;
+	color: #2e0036;
 	font-weight: bolder;
-	-webkit-text-stroke:2px #331031;
+	-webkit-text-stroke:3px #561A52;
 }
 .text-center-small{
 	text-shadow: 2px 2px 6px #331031 !important;
@@ -128,7 +128,21 @@ h6 {
 .list{
 	font-size: 1vw !important;
 }
+.navbar-nav li .dropdown-menu{width: max-content;}
+
+.sublist{
+	width: fit-content;
+	margin: 25px;
+}
 @media screen and (max-width:1000px) {
+	.promo-item h3 {
+		color: #561A52;
+		-webkit-text-stroke: 2px #CC9900;
+		font-weight: bolder;
+		font-size: 10vw !important;
+		display: inline-block;
+		vertical-align: middle;
+	}
 	.text-center-small{
 		text-align: center;
 		text-shadow: 2px 2px 6px #331031 !important;
@@ -159,10 +173,36 @@ h6 {
 	object-fit: scale-down;
 }
 
-@media screen and (max-width:358px) {
+@media screen and (max-width:500px) {
+	
+	.jumbotron h1   { font-size: 12vw !important;
+		font-weight: bolder;
+		color: #CC9900;
+		-webkit-text-stroke-width: 6px !important;
+	-webkit-text-stroke: 6px #331031; }
 
 }
 @media screen and (max-width:767px) {
+	.navbar-right{
+
+		position: absolute;
+		top: 70%;
+		right: 0%;
+		
+		background-color: #561A52;
+		margin-top: 60px;
+		
+	}
+	.promo-item h3 {
+		color: #561A52;
+		-webkit-text-stroke: 2px #CC9900;
+		font-weight: bolder;
+		font-size: 14vw !important;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	*
+{text-shadow: none !important;}
 	.dropdown-menu li a {
 		display: flex !important;
 		padding: unset;
@@ -258,9 +298,11 @@ h6 {
 	}
 	
 	.nav li{
+		padding: 10px !important;
 		overflow: clip !important;
 		text-align: center;
 		width: auto;
+		font-size: 5vw;
 		align-self: center !important; 
 		align-content: center !important;
 		margin: 5px;
@@ -340,18 +382,18 @@ h6 {
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		font-size: 5svw;
 		border-radius: 0px !important;
+		height: fit-content;
 		display: flex !important;
 		text-align: left;
-
 	}
 	.navbar-nav .open .dropdown-menu{
-		overflow-x: visible;
 		position: static;
         float: none;
-        width: inherit;
+        width: fit-content;
         margin-top: 0px;
-        background-color: transparent;
+        background-color: transparent !important;
         border: 0;
         -webkit-box-shadow: none;
         box-shadow: none;
@@ -370,14 +412,14 @@ h6 {
 	.navbar-default{
 		height: 115px !important;
 	}
-	.jumbotron h1   { font-size: 11vw !important;
-		-webkit-text-stroke-width: 1.25px !important; }
+	.jumbotron h1   { font-size: 14vw !important;
+		font-weight: bolder;
+		-webkit-text-stroke-width: 3px !important; }
 	
 	.navbar-default .navbar-brand{
-		width: 110px;
+		width: fit-content;
 		padding: 0;
 		margin-left: 0;
-		scale: 40%;
 	}}
 @media screen and (max-width:900px) {
 	.navbar-default .navbar-nav li a {
@@ -474,9 +516,10 @@ h6 {
 }
 
 .promo-item h3 {
-	color: #3d123a;
-	-webkit-text-stroke: 2px #331031;
-    font-size: 40px;
+	color: #561A52;
+	-webkit-text-stroke: 2px #FFC61A;
+	font-weight: bolder;
+    font-size: 5vw;
     display: inline-block;
     vertical-align: middle;
 }
@@ -564,7 +607,7 @@ Override Bootstrap Classes
 
 /* Links */
 img{
-	filter: drop-shadow(5px 5px 5px #2e0036);
+	filter: drop-shadow(5px 5px 5px #52100f);
 }
 a {
   color: orange;
@@ -639,6 +682,7 @@ a:focus {
 @media screen and (max-width:900px) {
 	
 	
+	
 	.navbar-default .navbar-nav .active a:hover{
 	
 		font-size: 1.4em;
@@ -679,6 +723,10 @@ a:focus {
 	padding-right: 10px !important;
 
 }
+.dropdown-menu li a{
+	word-break: keep-all;
+	width: fit-content;
+}
 .navbar-default .navbar-nav li a{
 	all: unset;
 	
@@ -709,13 +757,6 @@ a:focus {
 
 .navbar-nav li .dropdown-menu{
 	border-radius: 25px !important;
-	background-color: #2e0036;
-}
-.dropdown-menu li a{
-	display: flex !important;
-	padding: 10px !important;
-	margin: 10px !important;
-	justify-content: center;
 	background-color: #2e0036;
 }
 
