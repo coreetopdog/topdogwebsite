@@ -312,7 +312,6 @@ h6 {
 	
 	.nav li{
 		padding: 10px !important;
-		overflow: clip !important;
 		text-align: center;
 		width: auto;
 		font-size: 5vw;
