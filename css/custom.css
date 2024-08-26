@@ -412,8 +412,9 @@ h6 {
 	}
 
 	.navbar-right{
+		height: fit-content !important;
 		padding: 25px;
-		overflow-x: visible;
+		overflow: visible !important;
 		margin-top: 0 !important;
 		width: fit-content;
 		border-radius: 25px;
