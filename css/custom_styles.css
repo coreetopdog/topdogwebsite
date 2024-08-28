@@ -80,3 +80,13 @@ img:hover{
 .btn{
   width: 15vw;
 }
+.intro .intro-text{
+  padding: 25px !important;
+  height: fit-content;
+}
+.intro{
+  height: fit-content !important;
+}
+.page-section{
+  height: fit-content;
+}
