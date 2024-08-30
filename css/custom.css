@@ -35,8 +35,20 @@ h1{
 	font-weight: bolder;
 	-webkit-text-stroke:2px #331031;
 }
+.lead ul{
+	padding: 10% !important;
+}
 .text-center li{
-	text-align: center;
+	
+	padding-right: auto;
+    list-style-position: inside;
+	text-justify: auto;
+	
+}
+
+.item li{
+	padding-left: 20%;
+	padding-right: auto;
     list-style-position: inside;
 	text-justify: auto;
 	
@@ -53,7 +65,7 @@ h1{
 	font-size: 8em;
 	color: #E90808;
 	font-weight: bolder !important;
-	-webkit-text-stroke:3px #2e0036;
+	-webkit-text-stroke:3px #4A0202;
 	text-shadow: 4px 4px 2px #CC9900;
 	box-shadow: 0 0 10px #2e0036;
 	border-radius: 15px;
@@ -81,7 +93,9 @@ h1{
 	text-align: left !important;
 	color: #E90808 !important;
 }
+
 .lead {
+	
 	font-weight: normal !important;
 	font-size: 3em  ;
 	color: #4A0202;
@@ -90,7 +104,7 @@ h1{
 .lead2 {
 	font-weight: normal !important;
 	padding: 25px;
-	font-size: 2em  ;
+	font-size: 1.75vw  ;
 	color: #4A0202;
 	-webkit-text-stroke:1px #E90808;
 }	
@@ -290,7 +304,7 @@ h6 {
 		font-weight: bolder;
 	}
 	.text-center{
-		font-size: 15vw;
+		font-size: 11vw;
 		font-weight: bolder;
 	}
 	
@@ -450,6 +464,9 @@ h6 {
 		margin-left: 0;
 	}}
 @media screen and (max-width:900px) {
+	.lead2{
+		font-size: 4vw !important;
+	}
 	.navbar-default .navbar-nav li a {
 		all: unset;
 		font-size: 1.4em;
@@ -644,7 +661,6 @@ img{
 	filter: drop-shadow(5px 5px 5px #4A0202);
 }
 a {
-	text-decoration: underline !important;
   color: #E90808;
   text-decoration: none;
 }
@@ -653,8 +669,16 @@ a:focus {
   color: #4A0202;
   text-decoration: underline;
 }
+.wrap{
+	float: left; 
+	padding: 3vw;
+   margin: 5px;
+   height: 70%;
+   width: 70%;
+}
 
 /* Navbar */
+
 .dropdown.open{
 	background-color: unset;
 	
@@ -798,15 +822,39 @@ a:focus {
 	background-color: #17001b;
 }
 
+ .text-center ul  {
+	padding-left: 0;
+  }
+  .text-center ul li {
+	 list-style-position: inside;
+  }
+
+
 
 .navbar-right{
-	margin-top: 60px;
-	
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
+ @media screen and (max-width:1200px) {
 
+	.navbar-right{
+		margin-top: 4%;
+		margin-bottom: 4%;
+	}}
+	@media screen and (max-width:992px) {
+
+		.navbar-right{
+			margin-top: 5%;
+			margin-bottom: 5%;
+		}
+	
+	} 
 .navbar-default {
 	box-shadow: inset 0 0 25px #000000;
-	
+	border-width: 0px;
+	border-bottom-width: 3px;
+	border-top-width: 3px;
+	border-color: #E90808;
 	padding-bottom: 0;
 	height: 110px;
   background-color: #450052;
