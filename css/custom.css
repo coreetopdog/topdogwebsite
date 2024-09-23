@@ -274,12 +274,14 @@ h6 {
 
 }
 @media screen and (max-width:767px) {
-	.text-center li{S
-		width: 1vwS;
+	.text-center li{
+		width: 150vw;
 		font-size: 4vw;
 		
+
 	}
 	.text-center{
+		font-size: 10vw !important;
 		text-shadow: unset !important ;
 	}
 	*{
