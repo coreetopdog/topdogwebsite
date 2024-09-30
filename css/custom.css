@@ -21,7 +21,6 @@ h1{
 	vertical-align: middle;
 }
 .text-center{
-	text-shadow: 2px 2px 6px #000 ;
 	font-size: 5vw;
 	color: #E90808;
 	font-weight: bolder;
@@ -49,7 +48,9 @@ h1{
 	text-justify: auto;
 	
 }
-
+.nowrapsize{
+	font-size: 1vw !important;
+}
 
 .item li{
 	padding-left: 20%;
@@ -91,9 +92,17 @@ h1{
 	border-radius: 15px;
 }
 .text-center:hover{
+	
 	transform: scale(105%);
 }
+
+.desc :hover{
+	padding-top: 15px !important;
+	padding-bottom: 15px !important;
+	transform: scale(115%);
+}	
 .text-center li:hover{
+	
 	transform: scale(115%);
 }	
 .lead3{
@@ -110,10 +119,40 @@ h1{
 	-webkit-text-stroke:.5px #2e0036 !important;
 	font-size: 2vw !important;
 }
+
 .border{
 	border-width: 5px !important;
 	border-style: groove !important;
 	margin-top: 25px !important;
+	padding-left: 50%;
+	padding-right: auto;
+}
+.bordercent{
+	border-width: 2px !important;
+	border-style: groove !important;
+	width: fit-content; 
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+.border{
+	border-radius: 10px;
+	background-color: #fcf482;
+	padding: 10px ;
+	border-color: #4A0202 !important;
+	border-style: hidden !important;
+	box-shadow:  0 0 25px #1a190d inset;
+	border-width: 5px !important;
+}
+.bordercent{
+	border-radius: 10px;
+	background-color: rgb(249, 242, 147);
+	padding-bottom: unset;
+	padding: 25px !important ;
+	border-color: #4A0202 !important;
+	border-style: hidden !important;
+	box-shadow:  0 0 15px #1a190d inset;
+
 }
 .item{
 	-webkit-text-stroke:1px #4A0202 !important;
@@ -144,10 +183,12 @@ scale: 75%;
 	padding-left: 15px !important;
 	font-weight: normal !important;
 	font-size: 3em  ;
+	margin-bottom:unset;
 	color: #4A0202;
 	-webkit-text-stroke:1px #E90808;
 }	
 .lead2 {
+	padding-top: 0px !important;
 	font-weight: normal !important;
 	padding: 25px;
 	font-size: 1.75vw  ;
@@ -879,16 +920,8 @@ a:focus {
 	color: #E90808 !important;
 }
 
-.border{
-	border-radius: 10px;
-	background-color: #fcf482;
-	padding: 10px ;
-	border-color: #4A0202 !important;
-	border-style: hidden !important;
-	box-shadow:  0 0 25px #1a190d inset;
-	border-width: 5px !important;
-	
-}
+
+
 
 .navbar-nav li .dropdown-menu{
 	box-shadow: 0 0 25px #000 inset;
@@ -1004,3 +1037,11 @@ fieldset[disabled] .btn-primary.active {
   background-color: sandybrown;
   border-color: sandybrown;
 }
+.desc ul{
+	width:75% !important;
+	display:block !important;
+}
+.desc li { 
+	display:block !important;
+	white-space: nowrap !important;
+	width: fit-content !important; }
