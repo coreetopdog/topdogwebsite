@@ -102,9 +102,15 @@ h3{
 	border-radius: 15px;
 }
 .text-center:hover{
-	
+	margin-bottom: 25px !important;
 	transform: scale(105%);
 }
+.lead ul:hover {
+	
+	padding: 25px;
+	margin: 25px;
+}
+
 
 .desc :hover{
 	padding-top: 15px !important;
@@ -167,7 +173,7 @@ h3{
 .item{
 	text-shadow:1px #4A0202 !important;
 	margin: 0 !important;
-	padding: 5px !important;
+	padding-bottom: unset !important;
 	font-size: 3vw !important;
 	text-align: left !important;
 	color: #2e0036 !important;
@@ -188,8 +194,18 @@ scale: 75%;
 .li:hover{
 	scale: 105%;
 }
+.lead ul{
+	padding: 25px;
+	padding-left: 15px !important;
+	font-size: 3em  ;
+	margin-bottom:unset;
+	color: #220023;
+	text-shadow:1px #E90808;
+}	
 
 .lead {
+
+	padding: 25px;
 	padding-left: 15px !important;
 	font-size: 3em  ;
 	margin-bottom:unset;
@@ -204,6 +220,10 @@ scale: 75%;
 	font-weight: 600 !important;
 	color: #220023;
 	text-shadow:1px #E90808;
+	padding-bottom: unset;
+}	
+.money {
+	font-size: 1.25vw !important;
 }	
 .lead3 {
 	text-align: center;
@@ -644,6 +664,7 @@ h1{
 	}}
 @media screen and (max-width:900px) {
 	.lead2{
+		
 		font-size: 4vw !important;
 	}
 	.navbar-default .navbar-nav li a {
