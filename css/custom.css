@@ -195,6 +195,7 @@ scale: 75%;
 	scale: 105%;
 }
 .lead ul{
+	
 	padding: 25px;
 	padding-left: 15px !important;
 	font-size: 3em  ;
@@ -204,7 +205,6 @@ scale: 75%;
 }	
 
 .lead {
-
 	padding: 25px;
 	padding-top: unset;
 	padding-left: 15px !important;
@@ -1185,8 +1185,10 @@ fieldset[disabled] .btn-primary.active {
 	display:block !important;
 }
 .desc li { 
+	float: none;
+	
 	display:block !important;
-	white-space: nowrap !important;
+
 	width: fit-content !important; }
 .lead ul{
 
