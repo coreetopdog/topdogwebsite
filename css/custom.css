@@ -27,9 +27,16 @@ h1{
 .btn-primary.active{
 	vertical-align: middle;
 }
+
 .text-center{
 	font-size: 5vw;
 	color: #E90808;
+	font-weight: bolder;
+	text-shadow:3px #2a0d29;
+}
+h2{
+	font-size: 5vw;
+	color: #2a0d29 !important;
 	font-weight: bolder;
 	text-shadow:3px #2a0d29;
 }
