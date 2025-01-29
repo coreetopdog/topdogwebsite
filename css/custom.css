@@ -17,8 +17,19 @@ body {
 	text-shadow:2px red !important;
 
 }
+.valentines{color: rgb(251, 63, 107) !important;
+	text-shadow:0px red !important;
+	-webkit-text-stroke: 0px !important;
 
+}
+.easter{color: rgb(244, 104, 232) !important;
+	text-shadow:2px red !important;
 
+}
+.Halloween{color: rgb(227, 121, 0) !important;
+	text-shadow:2px red !important;
+
+}
 	
 	
 .navbar-default{
@@ -113,24 +124,22 @@ h3{
 	border-radius: 15px;
 }
 .text-center:hover{
-	margin-bottom: 25px !important;
-	transform: scale(105%);
+	
+	
 }
 .lead ul:hover {
 	
-	padding: 25px;
-	margin: 25px;
+	
 }
 
 
 .desc :hover{
-	padding-top: 15px !important;
-	padding-bottom: 15px !important;
-	transform: scale(115%);
+	
+	
 }	
 .text-center li:hover{
 	
-	transform: scale(115%);
+	
 }	
 .lead3{
 	font-size: 3vw ;
@@ -203,7 +212,7 @@ scale: 75%;
 }
 
 .li:hover{
-	scale: 105%;
+
 }
 .lead ul{
 	
@@ -264,7 +273,7 @@ h6 {
 
 	}
 	img:hover{
-		transform: scale(110%);
+		
 	}img{
 		transition-timing-function: cubic-bezier(.29, 1.01, 1, -0.68);
 	transition: all 1s;
@@ -355,7 +364,7 @@ h1{
 		padding-left: 0;
 	}
 	.text-center li:hover{
-		transform: scale(115%);
+
 	}	
 	.promo-item h3 {
 		color: #E90808;
@@ -1111,7 +1120,7 @@ a:focus {
 	
 	} 
 .navbar-default {
-	box-shadow: inset 0 0 25px #2e00362e0036;
+	box-shadow: inset 0 0 25px #2a0d29;
 	border-width: 0px;
 	border-bottom-width: 3px;
 	border-top-width: 3px;
