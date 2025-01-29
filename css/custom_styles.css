@@ -52,28 +52,11 @@ body{
   color: #420000;
 }
 .pulsate {
-  animation: myPulse 10s  0s infinite normal forwards;
 }
 
 @keyframes myPulse {
-  0% {
-    transform: scale(1);
-  }
+}
 
-  50% {
-    transform: scale(1.05);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-img{
-  transition: scale 1s;
-}
-img:hover{
-  transition: scale(2) 1s;
-}
 .footer{
   background-color: #B50B17;
 }
