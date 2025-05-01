@@ -46,7 +46,11 @@ body {
 	text-shadow: 2px red !important;
 
 }
+.Cinco {
+	color: rgb(31, 141, 48) !important;
+	text-shadow: 2px red !important;
 
+}
 .navbar-default {
 	font-size: 1.5em;
 }
